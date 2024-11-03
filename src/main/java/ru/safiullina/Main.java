@@ -60,7 +60,7 @@ public class Main {
             System.out.println();
         }
         catch (NumberFormatException e){
-            logger.log("Ошибка ввода значений: " + e.getMessage());
+            logger.log("Введите целое число. " + e.getMessage());
         }
         catch (IllegalArgumentException e){
             logger.log("Ошибка ввода числа: " + e.getMessage());
